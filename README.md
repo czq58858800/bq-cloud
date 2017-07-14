@@ -1,7 +1,7 @@
-##### 表情微服务
-- bq-discovery: 注册中心 端口：1100
+## 表情微服务
+- bq-discovery: 注册中心 端口：1100 
 - bq-gateway:  服务网关Zuul :4100
+- bq-user-center: 表情用户模块
 - bqss-app-provider: 表情说说app服务提供方
 - bqss-app-consumer: 表情说说app服务消费方
 - bqss-admin : 表情说说后台模块
-- bq-user-center: 表情用户模块
