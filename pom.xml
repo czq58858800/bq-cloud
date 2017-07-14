@@ -13,8 +13,7 @@
 		<module>bqss-app-provider</module>
 		<module>bqss-app-consumer</module>
 		<module>bqss-admin</module>
-		<module>bq-user-provider</module>
-		<module>bq-user-consumer</module>
+		<module>bq-user-centet</module>
 		<module>bq-es</module>
 	</modules>
 	<parent>
