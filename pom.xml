@@ -6,15 +6,14 @@
 	<groupId>com.bqst</groupId>
 	<artifactId>bq-cloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<modules>
-		<module>bq-discovery</module>
+		<module>commonservice-eureka</module>
+		<module>commonservice-elasticsearch</module>
+		<module>commonservice-zull</module>
 		<module>bqss-app-provider</module>
 		<module>bqss-app-consumer</module>
-		<module>bqss-admin</module>
-		<module>bq-user-centet</module>
-		<module>bq-es</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

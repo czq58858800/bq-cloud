@@ -17,7 +17,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableConfigurationProperties({DruidDBConfig.class})
-@EnableSwagger2
 public class AppProviderApplication {
 
 	public static void main(String[] args) {

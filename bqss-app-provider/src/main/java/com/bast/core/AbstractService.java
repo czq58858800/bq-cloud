@@ -123,9 +123,13 @@ public abstract class AbstractService<T extends BaseModel> implements Service<T>
                 return mapper.selectByPrimaryKey(id);
             } else {
                 T record = (T)redisService.get(key);
+                if (null != record) {
+                    logger.info("cache hit......");
+                }
                 if (record == null) {
                     String lockKey = getLockKey(id);
                     if (redisService.getLock(lockKey)) {
+                        logger.info("cache miss read db......");
                         record = mapper.selectByPrimaryKey(id);
                         redisService.set(key, record);
                         redisService.del(lockKey);
