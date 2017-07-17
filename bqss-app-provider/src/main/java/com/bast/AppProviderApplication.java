@@ -10,7 +10,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * 通过 @EnableEurekaClient 注解，为服务提供方赋予注册和发现服务的能力
  * ------------------------------------------------------------------------------------------------------------------
  * 也可以使用org.springframework.cloud.client.discovery.@EnableDiscoveryClient注解
- * 详见以下两篇文章的介绍
  * ------------------------------------------------------------------------------------------------------------------
  * Created by chenzhongqiang on 2017/1/9 16:00.
  */
